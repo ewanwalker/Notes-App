@@ -6,14 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notes App</title>
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs/themes/prism-tomorrow.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
+    <link rel="stylesheet" href="./css/prism-tomorrow.min.css">
+    <link rel="stylesheet" href="./css/katex.min.css">
 </head>
 <body>
     <div id="TopBar">
         <button id="notes__add" type="button">💾 Save</button>
         <button id="notes__new" type="button" style="margin-left:1em;">➕ New Note</button>
-        <button id="notes__delete" type="button" style="margin-left:1em;">🗑️ Delete</button>
         <button id="settingsBtn" type="button" style="margin-left:auto;">⚙️ Settings</button>
         <input id="searchInput" type="text" placeholder="🔍 Search..." style="margin-left:1em;flex:1;max-width:200px;">
         <span class="tag-dropdown">
@@ -46,10 +45,10 @@
         </label>
         <button id="closeSettings">Close</button>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/prismjs/prism.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-python.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-javascript.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="./js/prism.min.js"></script>
+    <script src="./js/prism-python.min.js"></script>
+    <script src="./js/prism-javascript.min.js"></script>
+    <script src="./js/katex.min.js"></script>
+    <script src="js/renderer.js"></script>
 </body>
 </html>
